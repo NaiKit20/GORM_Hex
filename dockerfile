@@ -4,7 +4,7 @@ WORKDIR /app
 
 ARG CACHEBUST=1
 
-RUN git clone -b develop https://NaiKit20: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@github.com/NaiKit20/GORM_Hex.git .
+RUN git clone -b main https://NaiKit20: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@github.com/NaiKit20/GORM_Hex.git .
 
 RUN go mod download
 
